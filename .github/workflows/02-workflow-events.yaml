@@ -1,4 +1,4 @@
-name: 02 - workflow events
+name: 02 - workflow events with pr
 on: [push, pull_request, schedule, workflow_dispatch]
 jobs:
   echo:
