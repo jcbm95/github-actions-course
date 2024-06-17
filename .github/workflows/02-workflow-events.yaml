@@ -1,9 +1,10 @@
 name: 02 - workflow events with pr
-on: push:
-    pull_request:
-    schedule:
-      - cron: '*/5 * * * *'
-    workflow_dispatch:
+on:
+  push:
+  pull_request:
+  schedule:
+    - cron: "*/5 * * * *"
+  workflow_dispatch:
 jobs:
   echo:
     runs-on: ubuntu-latest
